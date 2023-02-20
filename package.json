@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-   "type": "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index"
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
     "cloudinary": "^1.34.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
@@ -19,7 +20,6 @@
     "nodemon": "^2.0.20",
     "openai": "^3.1.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mukutdev/DALL-E--image-server.git"
